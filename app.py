@@ -3,7 +3,8 @@ import logging
 
 app = Flask(__name__)
 
-TEMPLATE = """<!doctype html>
+TEMPLATE = """
+<!doctype html>
 <html>
   <head>
     <meta charset="utf-8">
