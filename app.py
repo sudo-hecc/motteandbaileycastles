@@ -2,7 +2,7 @@ from flask import Flask, render_template_string
 import logging
 import os
 
-# INITIALISE WEB APPLICATION
+# INITIALISE WEB APPLICATION (use default `static/` folder)
 app = Flask(__name__)
 
 # SETUP HTML TEMPLATE
