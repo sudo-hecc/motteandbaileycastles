@@ -6,7 +6,7 @@ import os
 app = Flask(__name__)
 
 # SETUP HTML TEMPLATE
-HERE = os.path.dirname("pages/")
+HERE = os.path.dirname("static/pages/")
 
 with open(os.path.join(HERE, "main_page.html"), "r") as f:
     TEMPLATE = f.read()
