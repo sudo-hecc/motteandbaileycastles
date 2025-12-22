@@ -1,8 +1,23 @@
 body {
     background-color: #7D140E;
-    text-align: center
+    text-align: center;
+    font-family: sans-serif;
 }
 
 h1 {
-    text-align: center
+    text-align: center;
+    font-family: sans-serif;
 }
+
+.btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background: #0011ff;
+    color: #2b2b2b;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.btn:hover { opacity: 0.9; }
