@@ -17,3 +17,16 @@ h1 {
     text-align: center;
     font-family: sans-serif;
 }
+
+.btn {
+    display: block;
+    margin: 0.75rem auto 0;
+    padding: 0.5rem 1rem;
+    background: #0011ff;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.btn:hover { opacity: 0.9; }

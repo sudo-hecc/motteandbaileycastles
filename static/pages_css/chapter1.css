@@ -20,8 +20,7 @@ h1 {
 
 .btn {
     display: block;
-    width: max-content;
-    margin: 1rem auto;
+    margin: 0.75rem auto 0;
     padding: 0.5rem 1rem;
     background: #0011ff;
     color: #000000;
