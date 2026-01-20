@@ -20,7 +20,7 @@ h1 {
 .btn {
     display: block;
     width: calc(100% - 20px);
-    margin: 0.75rem 10px 0;
+    margin: 0.75rem 10px 5px;
     padding: 0.5rem 1rem;
     box-sizing: border-box;
     background: #0011ff;

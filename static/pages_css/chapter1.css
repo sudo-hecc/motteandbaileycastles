@@ -20,7 +20,7 @@ h1 {
 .btn {
     display: block;
     width: calc(100% - 20px);
-    margin: 0.75rem 10px 0;
+    margin: 0.75rem 10px 5px;
     padding: 0.5rem 1rem;
     box-sizing: border-box;
     background: #0011ff;
@@ -46,8 +46,12 @@ h1 {
 
 .footer-image {
     display: block;
-    width: calc(50% - 0.25rem);
+    display: block;
+    width: calc(100% - 20px);
+    max-width: 100%;
     height: auto;
+    max-height: calc(100vh - 160px);
+    margin: 0 auto;
     object-fit: contain;
     object-position: center bottom;
 }
