@@ -41,6 +41,7 @@ h1 {
     width: 100%;
     box-sizing: border-box;
     margin-top: 0.75rem;
+    align-self: center;
 }
 
 .footer-image {
